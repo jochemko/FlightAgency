@@ -1,0 +1,22 @@
+ip: 192.168.56.50
+memory: 2048
+cpus: 2
+provider: virtualbox
+authorize: C:\Users\jochemk\Documents\Identity.pub
+#keys:
+#    - ~/.ssh/id_rsa
+folders:
+    -
+        map: C:\Users\jochemk\Documents\NetBeansProjects\FlightAgency
+        to: /home/vagrant/flightagency
+        type: "nfs"
+sites:
+    -
+        map: flightagency.training
+        to: /home/vagrant/flightagency/public
+        type: symfony4
+        php: "7.1"
+databases:
+    - flightagency
+name: flightagency
+hostname: jochemFlightagency
