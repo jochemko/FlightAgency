@@ -2,7 +2,7 @@ ip: 192.168.56.50
 memory: 2048
 cpus: 2
 provider: virtualbox
-authorize: C:\Users\jochemk\Documents\Identity.pub
+authorize: C:\Users\jochemk\Documents\Identity
 #keys:
 #    - ~/.ssh/id_rsa
 folders:
